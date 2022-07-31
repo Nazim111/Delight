@@ -1,0 +1,429 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Окна Delight</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Lora:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link type="text/css" href="{% static 'css/1.css' %}">
+  <link type="text/css" href="{% static 'css/2.css' %}">
+  <link type="text/css" href="{% static 'css/main.css' %}">
+  <link type="text/css" href="{% static 'css/chief-slider.css' %}">
+
+  <link type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+  <link type="text/css" href="{% static 'css/bootstrap.css.map' %}">
+  <link type="text/css" href="{% static 'css/bootstrap-grid.min.css' %}">
+  <link type="text/css" href="{% static 'css/bootstrap-grid.min.css.map' %}">
+
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.bundle.min.js.map' %}"></script>
+  <script defer src="{% static 'js/chief-slider.js' %}"></script>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        new ChiefSlider('.slider', {
+          loop: true,
+          autoplay: false,
+          interval: 5000,
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">OkDe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#l-1">О проекте</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#l-2">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-0" href="#l-2">+7 (965) 79-05-323</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-1" href="#">+7 (965) 79-05-323</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-2" href="#">oknaspb95@mail.ru</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-3" href="#"><a class="btn-vk-1" href="#"><img class="icon-vk" src="{% static 'img/vk-1.png' %}"></a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-4" href="#"><a class="button-1-1" href="#l-2">Оставить заявку</a></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="text-m1">
+    Окна Delight
+    <div class="text-m2">
+      Необходимая деталь вашего уюта<br>
+      Остекленение коттеджей, балконов и лоджий<br>
+      со скидкой до 30% в городе Санкт-Петербург<br>
+      и Ленинградской области
+    </div>
+  </div>
+  <div>
+    <a class="button-1" href="#l-2">Оставить заявку</a>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col px-0">
+        <img class="img-fluid" src="{% static 'img/1.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+        <img class="img-fluid-1" src="{% static 'img/1-1.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+        <img class="img-fluid-2" src="{% static 'img/1-2.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid px-0" id="l-1">
+    <div class="row px-0">
+      <div class="col-md-6 order-first">
+        <div class="text-1">
+          О проекте
+        </div>
+        <div class="text-2">
+          <p>Команда “Окна Delight” занимается производством и
+            ремонтом окон в городе Санкт-Петербург и Ленинградской области.
+            Профессиональные монтажники изготавливают и устанавливают
+            изделия из ПВХ.</p><p>
+            Высокоточные технологии которыми мы пользуемся при создании
+            окон гарантирует надежность, качество и безопасность.</p>
+        </div>
+      </div>
+      <div class="col-md-6 order-last">
+        <img class="img-1" src="{% static 'img/2.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid px-1">
+    <div class="row px-1">
+      <div class="col-md-6 order-first">
+        <div class="text-1-0">
+          Услуги
+        </div>
+      </div>
+      <div class="col-md-6 order-last">
+        <div class="text-2-1">
+              Мы внимательно следим за новинками и постоянно развиваем
+              свою
+              продукцию.
+              <p></p>
+          <p>Сейчас в сфере производства окон мы предлагаемследующие виды
+              продукции: установка дверей, остекление домов, коттеджей, балконов,
+              лоджий. В сферу наших услуг входит демонтаж, замеры, изготовление в
+              кратчайшие сроки а также профессиональная установка и консультация по
+              дальнейшей эксплуатации.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="slider" data-slider="chiefslider">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item">
+                  <div class="slider__item-container">
+                    <div class="slider__item-content">
+                      <img class="img-fluid-c" src="{% static 'img/c1.png' %}" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__item">
+                  <div class="slider__item-container">
+                    <div class="slider__item-content">
+                      <img class="img-fluid-c" src="{% static 'img/c2.png' %}" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__item">
+                  <div class="slider__item-container">
+                    <div class="slider__item-content">
+                      <img class="img-fluid-c" src="{% static 'img/c3.png' %}" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__item">
+                  <div class="slider__item-container">
+                    <div class="slider__item-content">
+                      <img class="img-fluid-c" src="{% static 'img/с4.png' %}" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="slider__control" data-slide="prev"></a>
+          <a href="#" class="slider__control" data-slide="next"></a>
+          <ol class="slider__indicators">
+            <li data-slide-to="1"></li>
+            <li data-slide-to="2"></li>
+            <li data-slide-to="3"></li>
+            <li data-slide-to="4"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="b1"></div>
+  <div class="container-fluid px-0">
+    <div class="row px-2">
+      <div class="col-md-6 order last">
+        <img class="img-2" src="{% static 'img/3.png' %}">
+      </div>
+      <div class="col-md-6 order first">
+        <div class="text-1-1">
+          Материалы
+        </div>
+        <div class="text-2-2">
+          <p>Мы изготавливаем окна и двери от немецкого
+              производителя из лучших материалов: стекло
+              обладает высокой ударопрочностью, ПВХ устойчивые
+              к контрастным погодным условиям и обеспечивающие
+              теплозащиту.</p>
+              <p>Наши окна немецкого качества по цене российского
+              аналога. Мы сотрудничаем с заводом Sindy и
+              изготавливаем окна из профиля REHAU, которые
+              являются надежным и классическим вариантом.<br>
+              Мы докажем вам, что получить желаемое можно не
+              переплачивая.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid px-3">
+    <div class="row px-4">
+      <div class="col-sm order first">
+        <div class="text-1-1">
+          Материалы
+        </div>
+        <div class="text-2-2">
+          <p>Мы изготавливаем окна и двери от немецкого
+              производителя из лучших материалов: стекло
+              обладает высокой ударопрочностью, ПВХ устойчивые
+              к контрастным погодным условиям и обеспечивающие
+              теплозащиту.</p>
+              <p>Наши окна немецкого качества по цене российского
+              аналога. Мы сотрудничаем с заводом Sindy и
+              изготавливаем окна из профиля REHAU, которые
+              являются надежным и классическим вариантом.<br>
+              Мы докажем вам, что получить желаемое можно не
+              переплачивая.</p>
+        </div>
+      </div>
+      <div class="col-sm order last">
+        <img class="img-2" src="{% static 'img/3.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="b2"></div>
+  <div class="container-xxl">
+    <div class="row px-5-1">
+      <div class="col">
+      <figure class="text-center">
+          Почему мы?
+      </div>
+    </div>
+  </div>
+  <div class="container-xxl">
+      <div class="row px-5">
+        <div class="col-md-6">
+          <div class="text-3-1">
+            Качественные материалы
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-3-2">
+            Мы используем материалы немецкого<br> качества ценой российского аналога
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container-xxl">
+      <div class="row px-5">
+        <div class="col-md-6">
+          <div class="text-3-1">
+            Бригада профессионалов
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-3-2">
+            Наши мастера – профессионалы,<p>регулярно повышающие квалификацию</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container-xxl">
+      <div class="row px-5">
+        <div class="col-md-6">
+          <div class="text-3-1">
+            Гарантия качества
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-3">
+            Даем гарантию на продукцию
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="b2"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+        <img class="img-fluid-3" src="{% static 'img/4.png' %}">
+      </div>
+    </div>
+  </div>
+  <div class="container-xxl">
+    <div class="row-2">
+      <div class="col">
+        <figure class="text-center-1">
+          Сделав заказ на остекление вашего дома, офиса или квартиры в «Окна Delight», вы обеспечите уют и комфорт в любом<br> помещении!</br>
+      </div>
+    </div>
+  </div>
+  <div class="b2"></div>
+
+  <div class="container-fluid px-0" id="l-2">
+    <div class="row px-5-2">
+      <div class="col-12 col-sm-5 order last">
+        <div class="footer-2">
+          <div class="text-4-1">
+            КОНТАКТЫ
+          </div>
+          <div class="text-5">
+            Адрес “Окна Delight”
+          </div>
+          <div class="text-4">
+            Санкт-Петербург,<br>
+            Свердловская набержная д.4
+          </div>
+          <div class="text-5">
+            Контакты
+          </div>
+            <div class="text-4-2">
+             +7 (965) 79-05-323<br>
+              <p>oknaspb95@mail.ru</p>
+            </div>
+          <div class="icons">
+            <a class="btn-vk" href="#"><img class="icon-vk" src="{% static 'img/vk-2.png' %}"></a>
+          </div>
+        </div>
+      </div>
+    <div class="col-12 col-sm-7 order first">
+      <div class="footer-2">
+        <div class="text-4-1">
+          Узнать про условия скидки по телефону:
+        </div>
+        <div class="text-5">
+          Обратный звонок
+        </div>
+          <form method="post" class="form" action="">
+            {% csrf_token %}
+            {{ form.name }}
+            {{ form.number }}
+<!--            <input class="form-control" type="text" id="floatingInput" name="name" placeholder="Ваше имя" value="">-->
+<!--            <input class="form-control" type="text" id="number" name="number" placeholder="Номер телефона" value="">-->
+            <br><br>
+            <input class="check" type="checkbox"><label class="text-5-1">Даю согласие на обработку персональных данных</label>
+
+            <input class="button-2" type="submit" value="Жду звонка">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid px-0" id="l-2">
+    <div class="row px-5-3">
+      <div class="col-12 col-sm-7 order first">
+        <div class="footer-2">
+          <div class="text-4-1">
+            Узнать про условия скидки по телефону:
+          </div>
+          <div class="text-5">
+            Обратный звонок
+          </div>
+            <form method="post" class="form" action="">
+              {% csrf_token %}
+              {{ form.name }}
+              {{ form.number }}
+<!--              <input class="name" type="text" id="floatingInput" name="name" placeholder="Ваше имя" value="">-->
+<!--              <input class="number" type="text" id="number" name="number" placeholder="Номер телефона" value="">-->
+              <br><br>
+              
+              <input class="check" type="checkbox"><label class="text-5-1">Даю согласие на обработку персональных данных</label>
+
+              <input class="button-2" type="submit" value="Жду звонка">
+            </form>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 order last">
+          <div class="footer-2">
+            <div class="text-4-1">
+              КОНТАКТЫ
+            </div>
+            <div class="text-5">
+              Адрес “Окна Delight”
+            </div>
+            <div class="text-4">
+              Санкт-Петербург,<br>
+              Свердловская набержная д.4
+            </div>
+            <div class="text-5">
+              Контакты
+            </div>
+              <div class="text-4-2">
+               +7 (965) 79-05-323<br>
+                <p>oknaspb95@mail.ru</p>
+              </div>
+            <div class="icons">
+              <a class="btn-vk" href="#"><img class="icon-vk" src="{% static 'img/vk-2.png' %}"></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
